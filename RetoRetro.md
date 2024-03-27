@@ -63,6 +63,8 @@ AES_set_decrypt_key(0x55aa2d450150, 128, 0x7fff62f74b60, 4112) = 0
 
 Looking at [this page for MD5](https://www.openssl.org/docs/man1.1.1/man3/MD5.html) you will see that `0x55aa2d450150` is the address used by AES_Decrypt. But that isn't the string, but the MD5 hash, which is already the binary!
 
+To find the actual hash, you need to look at the function called right after all of the string comparisons. From there, you can see a bunch of single character comparisons. if you reconstruct the hex of each of those characters, you end up with a valid md5 hash.
+
 To get the program to actually decrypt, you need to modify a few instructions.
 First, you need to pass the checks at  FUN_001014e3 (main). 
 ```

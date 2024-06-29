@@ -5,7 +5,8 @@ All we get is an `.apk`
 Now, we can use `apktool` to extract the files, and `jadx-gui` to see the code.
 
 If we look in resources
-![[seethesharpflag_1.png]]
+![seethesharpflag_1.png](https://raw.githubusercontent.com/DisplayGFX/DisplayGFX-CTF-writeups/main/img/seethesharpflag_1.png)
+
 
 We can see that there is a DLL named `SeeTheSharpFlag.dll` and one for android. once we extract those with `apktool`, we run file, which returns something odd.
 

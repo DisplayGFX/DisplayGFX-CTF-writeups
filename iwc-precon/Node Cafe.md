@@ -133,7 +133,7 @@ Well, that's a peculiar note, lets keep this in mind while moving on.
 
 So, there are 3 pages. Here is what the site looks like below.
 
-![nodecafe_1.png](https://raw.githubusercontent.com/DisplayGFX/DisplayGFX-CTF-writeups/main/iwc-precon/img/)
+![nodecafe_1.png](https://raw.githubusercontent.com/DisplayGFX/DisplayGFX-CTF-writeups/main/iwc-precon/img/nodecafe_1.png)
 
 There seems to be some odd machine in the upper right corner. and a similar machine at the end of each page. Moving on, there is not much in terms of things visible to the visible eye. So, next, lets look at the source of the sites. Below is for `Our Menu`
 

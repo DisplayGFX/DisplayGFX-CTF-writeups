@@ -65,6 +65,8 @@ Looking at [this page for MD5](https://www.openssl.org/docs/man1.1.1/man3/MD5.ht
 
 To find the actual hash, you need to look at the function called right after all of the string comparisons. From there, you can see a bunch of single character comparisons. if you reconstruct the hex of each of those characters, you end up with a valid md5 hash.
 
+(Post Challenge Update: I spoke with the creator, turns out, this was a valid string, just not ascii. When I was working on this challenge, I had tried bruteforcing the results, but never included anything other than alphanumeric characters. But when it retired, I asked the creator what it was. socialkas told me the password was "¡AtariVCS2600!". Never in a million years...)
+
 To get the program to actually decrypt, you need to modify a few instructions.
 First, you need to pass the checks at  FUN_001014e3 (main). 
 ```

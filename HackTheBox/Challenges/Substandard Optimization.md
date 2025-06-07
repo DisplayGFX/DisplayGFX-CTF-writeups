@@ -104,7 +104,7 @@ void do_step(turing *param_1){
 For the rest, looking at the decompilation should be enough.  In the below graph you will see a description of the functioning of the program.
 ## do_step - Full Understanding and Recreation.
 
-![[substandard_1.png]]
+![FA map](https://github.com/DisplayGFX/DisplayGFX-CTF-writeups/blob/main/img/substandard_1.png)
 
 The above graph is called a state diagram. This is a rough diagram, but all state diagrams are similar. The program starts at the `start` state. Each bubble represents a state and associated action with the arrows meaning the result of an action. The idea is to follow the path of the state diagram until it results in an exit.
 
@@ -152,7 +152,7 @@ Recreating the function is simple. The real challenge is ..... ***O B S E R V A 
 
 I have a personal philosophy about learning: the lower the cognitive burden the easier it is to learn. And in that spirit, I have made this program visualizing the operation of the Turing machine.
 
-![[substandard_2.png]]
+![visualization of the virtual machine in action](https://github.com/DisplayGFX/DisplayGFX-CTF-writeups/blob/main/img/substandard_2.png)
 
 The red number is the index of the A location. The orange/yellow number is the index for the B location. The green number is the nextVar location that the program will jump to in case B location ends up being less than 1. And the purple number is the most recently changed value in the program. The code is at the end of this file, and stored seperately as .
 
@@ -168,17 +168,17 @@ There is an instruction that does nothing but jump to later in the program. It a
 ##### Block 1
 It seems that the block after this instruction all contains printable text. Looking at it in the emulator I created it shows that every value is in the printable range of ascii.
 
-![[substandard_3.png]]
+![a bunch of ascii letters in emulator](https://github.com/DisplayGFX/DisplayGFX-CTF-writeups/blob/main/img/substandard_3.png)
 ##### Block 2
 This block starts at 1203, right after the ascii block. It contains numbers that are way outside the range of  the program and the bytes don't correspond to any ascii. It ends with the value `1200` so there's a length to this block.
 
 If you look at the distribution of the data, it is all tightly focused around the billions.
 
-![[substandard_4.png]]
+![graph of values charted](https://github.com/DisplayGFX/DisplayGFX-CTF-writeups/blob/main/img/substandard_4.png)
 
 There doesn't seem to be a discernable pattern aside from the relatively tight grouping.
 
-![[substandard_5.png]]
+![scatterplot of values](https://github.com/DisplayGFX/DisplayGFX-CTF-writeups/blob/main/img/substandard_5.png)
 ##### Block 3
 
 The third block appears to be a block of instructions. It all contains values that are pointing to within the program or just outside of it. So this should be where most of the execution take place.

@@ -467,4 +467,4 @@ for index in range(1, 28):
 
 And that gets the flag!
 
-[https://www.hackthebox.com/achievement/challenge/158887/312]
+[https://labs.hackthebox.com/achievement/challenge/158887/312]

@@ -167,5 +167,4 @@ And its been cracked. Lets try it with the others!
 And if you check your potfile, you should be able to find all of the passwords in there.
 
 lets try a simple `sudo su` to get to root. And it works, box rooted!
-https://www.hackthebox.com/achievement/machine/158887/590
-
+https://labs.hackthebox.com/achievement/machine/158887/590

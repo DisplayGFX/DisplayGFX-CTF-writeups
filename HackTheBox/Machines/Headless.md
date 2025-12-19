@@ -111,4 +111,4 @@ make sure to make the script executable!
 
 and we got root!
 
-https://www.hackthebox.com/achievement/machine/158887/594
+https://labs.hackthebox.com/achievement/machine/158887/594

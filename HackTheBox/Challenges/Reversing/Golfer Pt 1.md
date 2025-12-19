@@ -51,7 +51,7 @@ For solving the challenge, we can simply patch out the first jump instruction, a
 
 Run the program again by saving the current state in ghidra, using the `O` key, and selecting the option to export to `Original File`. Run this modified binary, and it will print out the flag.
 
-https://www.hackthebox.com/achievement/challenge/158887/378
+https://labs.hackthebox.com/achievement/challenge/158887/378
 
 ## Understanding the binary
 
@@ -202,7 +202,6 @@ void __regparm3 entry(undefined4 param_1,undefined4 param_2)
 
 And that's the flag!
 
-https://www.hackthebox.com/achievement/challenge/158887/378
+https://labs.hackthebox.com/achievement/challenge/158887/378
 
 Oh, and if you are wondering how it doesn't crash at the end of the entry function? the entry function just keeps on executing instructions right into the exit function, which exits with an error code of `42`.
-

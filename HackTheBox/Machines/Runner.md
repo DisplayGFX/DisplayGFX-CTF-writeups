@@ -66,4 +66,4 @@ Then, creating a new container, we make two alterations. In the "Command & Loggi
 
 Then, simply read anything you like from `/rootfs/root` and you should be golden. There is a private key there, but you can also just read `root.txt`.
 
-https://www.hackthebox.com/achievement/machine/158887/598
+https://labs.hackthebox.com/achievement/machine/158887/598

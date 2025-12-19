@@ -398,4 +398,4 @@ root@skyfall:~# id
 uid=0(root) gid=0(root) groups=0(root)
 ```
 # 🥳
-https://www.hackthebox.com/achievement/machine/158887/586
+https://labs.hackthebox.com/achievement/machine/158887/586

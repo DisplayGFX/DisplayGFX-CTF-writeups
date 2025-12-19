@@ -102,4 +102,4 @@ Give this to `/view/[statement]` and. there is a blank page. good sign. now lets
 
 And that is the flag!
 
-https://www.hackthebox.com/achievement/challenge/158887/395
+https://labs.hackthebox.com/achievement/challenge/158887/395

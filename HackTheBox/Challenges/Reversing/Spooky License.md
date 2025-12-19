@@ -153,7 +153,7 @@ print(found.solver.eval(flag, cast_to=bytes))
 
 This works, and gets the flag.
 
-https://www.hackthebox.com/achievement/challenge/158887/409
+https://labs.hackthebox.com/achievement/challenge/158887/409
 
 However, there are a few issues we can see and resolve.
 

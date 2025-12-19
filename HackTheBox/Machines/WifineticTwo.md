@@ -122,4 +122,4 @@ there is no password set for the `root` user, so just give it anything, but wait
 Wait, `root` had no password set. could that be true with `ssh` as well? lets check!
 `proxychains ssh root@192.168.1.1`
 
-https://www.hackthebox.com/achievement/machine/158887/593
+https://labs.hackthebox.com/achievement/machine/158887/593

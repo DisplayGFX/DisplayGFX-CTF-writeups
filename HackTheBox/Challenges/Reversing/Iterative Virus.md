@@ -498,4 +498,4 @@ The last thing in this function is two calls to `FreeLibrary`, to stop the progr
 
 So... what is this mystery string that is being compared? The flag!
 
-[https://www.hackthebox.com/achievement/challenge/158887/300]
+[https://labs.hackthebox.com/achievement/challenge/158887/300]

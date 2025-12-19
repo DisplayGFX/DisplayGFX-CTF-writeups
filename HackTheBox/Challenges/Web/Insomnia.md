@@ -60,4 +60,4 @@ But here is the vulnerability: It does not check if password is present. So if y
 
 Thats it.
 
-https://www.hackthebox.com/achievement/challenge/158887/610
+https://labs.hackthebox.com/achievement/challenge/158887/610

@@ -486,7 +486,7 @@ Now that the program has been fully understood and in a readable format the algo
 
 And this gives the flag!
 
-https://www.hackthebox.com/achievement/challenge/158887/257
+https://labs.hackthebox.com/achievement/challenge/158887/257
 
 ## Extra Information
 
